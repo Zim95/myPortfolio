@@ -8,7 +8,7 @@ import {NavLink} from 'react-router-dom';
 
 const navigation = () => (
     <Navigation>
-        <NavLink to="/" exact>Home</NavLink>
+        <NavLink to="/" exact activeClassName="active">Home</NavLink>
         <NavLink to="/about">About Me</NavLink>
         <NavLink to="/projects">Projects</NavLink>
         <NavLink to="/resume">Resume</NavLink>

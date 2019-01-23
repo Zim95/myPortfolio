@@ -1,5 +1,46 @@
 .Home{
-    width: 100%;
+    width:100%;
+    margin:auto;
+    text-align: center;
+    background: #FDC830;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 20em;
+    height: 20em;
+    background-color: black;
+    opacity: .8;
+}
+
+.banner{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
     margin: auto;
-    background-color: brown;
+    border-radius: 10px;
+    text-align: center;
+}
+.banner h1{
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+/*maximum width upto which it will work*/
+@media (max-width:499px){
+
+    .banner h1{
+        font-size: 2em;
+        font-weight: bold;
+        color: white;
+    }
 }

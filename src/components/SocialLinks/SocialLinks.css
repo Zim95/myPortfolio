@@ -1,0 +1,13 @@
+.SocialLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 54%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+@media (max-width:499px){
+    .SocialLinks{
+        flex-flow: column;
+    }
+}

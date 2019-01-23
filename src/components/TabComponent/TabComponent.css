@@ -1,0 +1,24 @@
+.TabComponent{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.NoProjects{
+    text-align: center;
+}
+
+
+.NoProjects p{
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+}
+
+@media (max-width: 768px){
+    .TabComponent{
+        width: 100%;
+        flex-flow: column;
+    }
+}

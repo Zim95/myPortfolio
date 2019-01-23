@@ -7,7 +7,7 @@ import {Drawer} from 'react-mdl';
 import Navigation from '../Navigation/Navigation';
 
 const drawer = (props) => (
-    <Drawer title="Title">
+    <Drawer title="Namah Shrestha">
         <Navigation/>
     </Drawer>
             

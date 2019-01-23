@@ -1,0 +1,17 @@
+.SocialLinkTag{
+    color: white;
+    cursor: pointer;
+    font-size: 5em;
+    text-decoration: none;
+}
+
+.SocialLinkTag i{
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width:499px){
+    .SocialLinkTag{
+        font-size: 2em;
+    }
+}
