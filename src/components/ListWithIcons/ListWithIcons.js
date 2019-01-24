@@ -16,7 +16,7 @@ const listWithIcons = (props) => {
                     <ListItemContent style={{fontSize:'2em'}}><i className="fa fa-envelope"></i>{props.details.email}</ListItemContent>
                 </ListItem>
                 <ListItem>
-                    <ListItemContent style={{fontSize:'2em'}}><i className="fa fa-map-marker-alt"></i>{props.details.address}</ListItemContent>
+                    <ListItemContent style={{fontSize:'2em'}}><i className="fa fa-map-marker"></i>{props.details.address}</ListItemContent>
                 </ListItem>
             </List>
         </div>  

@@ -1,0 +1,42 @@
+.avatarThird{
+    border-radius: 10%;
+    width: 20em;
+    height: 20em;
+    background-color: black;
+    opacity: .8;
+    padding: 10px;
+}
+
+.resumeCellB{
+    background-color: #27221F;
+}
+
+.resumeCellB hr{
+    border-top: 1px solid palevioletred;
+    width: 75%;
+    margin: auto;
+}
+
+.resumeGridMobile, .resumeGridDesktop{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.alignLeft h4, .alignCenter h4 {
+    color: gray;
+}
+
+.alignLeft hr, .alignCenter hr {
+    border-top: 1px solid gray;
+    width: 100%;
+    margin: auto;
+}
+
+.alignLeft{
+    text-align: left;
+}
+
+.alignCenter{
+    text-align: center;
+}

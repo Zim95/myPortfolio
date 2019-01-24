@@ -17,8 +17,8 @@ class Projects extends Component{
                     {
                         id:"react1",
                         name: "Portfolio",
-                        description: "Portfolio site built upon ReactJS and Firebase.",
-                        tech:["ReactJS", "Redux", "Axios", "Firebase Realtime Database", "React-MDL"],
+                        description: "Portfolio site built upon ReactJS. Alot of code refactoring to be done. Redux to be added. Firebase to be added.",
+                        tech:["ReactJS", "React-MDL"],
                         deploymentLink: "#",
                         githubLink: "#"
                     },
