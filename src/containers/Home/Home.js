@@ -40,6 +40,7 @@ class Home extends Component{
                             <h1>{this.state.title}</h1>
                             <hr/>
                             <br/>
+                            <p>These icons are actual links. Please click on them!</p>
                             <SocialLinks links={this.state.social}/>
                         </div>
                     </Cell>

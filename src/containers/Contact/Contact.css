@@ -1,0 +1,49 @@
+.contact-grid{
+    background-color: grey;
+    display: flex;
+    height: 100%;
+}
+.avatarSecond{
+    border-radius: 10%;
+    width: 20em;
+    height: 20em;
+    background-color: black;
+    opacity: .8;
+    padding: 10px;
+}
+
+.contactCellA, .contactCellB{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: white;
+}
+.contactCellA{
+    margin-right: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+}
+.contactCellB{
+    margin-left: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+
+.contactCellB hr{
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+}
+
+.contactCellA p{
+    padding: 20px;
+    font-weight: bold;
+}
+@media (max-width:499px){
+
+    .contact-grid{
+        flex-flow: column;
+    }
+    .contact-grid h1{
+        font-size: 2em;
+    }
+}

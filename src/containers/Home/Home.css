@@ -35,6 +35,10 @@
     margin: auto;
 }
 
+.banner p{
+    color: white;
+}
+
 /*maximum width upto which it will work*/
 @media (max-width:499px){
 
